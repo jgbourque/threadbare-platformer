@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfn4ult1k7oxe"]
+
+[ext_resource type="Texture2D" uid="uid://bqd7lf2mw805a" path="res://assets/Threadbare_Side_Tileset1.png" id="1_0f3do"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xj13o"]
+size = Vector2(1907.5, 759.5)
+
+[node name="movingplatform" type="AnimatableBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1.99982, 201)
+scale = Vector2(7.23145, 7.88677)
+texture = ExtResource("1_0f3do")
+region_enabled = true
+region_rect = Rect2(896.666, 257.334, 252.667, 122.667)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(9, 79.25)
+shape = SubResource("RectangleShape2D_xj13o")
