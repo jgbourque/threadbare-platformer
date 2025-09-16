@@ -88,7 +88,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           pushd web
-          zip -r "../moddable-platformer-${{ github.ref_name }}-web.zip" .
+          zip -r "../threadbare-origins-inkdrinker-${{ github.ref_name }}-web.zip" .
           popd
 
-          gh release upload '${{ github.ref_name }}' 'moddable-platformer-${{ github.ref_name }}-web.zip' --repo '${{ github.repository }}'
+          gh release upload '${{ github.ref_name }}' 'threadbare-origins-inkdrinker-${{ github.ref_name }}-web.zip' --repo '${{ github.repository }}'
