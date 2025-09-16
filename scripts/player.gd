@@ -196,16 +196,7 @@ func _physics_process(delta):
 	else:
 		velocity.x = move_toward(velocity.x, 0, acceleration * delta)
 
-	if velocity == Vector2.ZERO:
-		_sprite.play("idle")
-	else:
-		if not is_on_floor():
-			if velocity.y > 0:
-				_sprite.play("jump_down")
-			else:
-				_sprite.play("jump_up")
-		else:
-			_sprite.play("walk")
+	if not is_zero_approx(velocity.x):
 		_sprite.flip_h = velocity.x < 0
 
 	move_and_slide()

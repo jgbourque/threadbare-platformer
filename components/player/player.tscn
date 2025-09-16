@@ -34,6 +34,7 @@ unique_name_in_owner = true
 position = Vector2(0, -64)
 sprite_frames = ExtResource("2_kfe3d")
 animation = &"idle"
+autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-2, -64)
