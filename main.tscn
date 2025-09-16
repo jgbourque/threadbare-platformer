@@ -12,7 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://beuisy5yrw0bq" path="res://components/flag/flag.tscn" id="12_dkbog"]
 [ext_resource type="Script" uid="uid://boqbxvbja884q" path="res://scripts/multiplayer_camera.gd" id="13_0d2mj"]
 [ext_resource type="Texture2D" uid="uid://cwki320u2wco1" path="res://assets/House_Patch_Blue_02.png" id="14_2cqfq"]
-[ext_resource type="PackedScene" uid="uid://ci3ae7lq7qtpe" path="res://bouncing_platform.tscn" id="14_vivmo"]
+[ext_resource type="PackedScene" uid="uid://ci3ae7lq7qtpe" path="res://components/bouncing_platform/bouncing_platform.tscn" id="14_vivmo"]
 [ext_resource type="PackedScene" uid="uid://dfn4ult1k7oxe" path="res://components/player/movingplatform.tscn" id="14_w48qg"]
 
 [sub_resource type="Animation" id="Animation_2cqfq"]

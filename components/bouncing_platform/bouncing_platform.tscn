@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://ci3ae7lq7qtpe"]
 
 [ext_resource type="Texture2D" uid="uid://bqd7lf2mw805a" path="res://assets/Threadbare_Side_Tileset1.png" id="1_y2jj6"]
-[ext_resource type="Script" uid="uid://bvbjimdo01rhp" path="res://area_2d.gd" id="2_y2jj6"]
+[ext_resource type="Script" uid="uid://bvbjimdo01rhp" path="res://components/bouncing_platform/area_2d.gd" id="2_y2jj6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_y2jj6"]
 size = Vector2(254, 81.5)
