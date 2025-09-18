@@ -13,4 +13,8 @@
 # be updated over time! See: https://opensauced.pizza/blog/shared-ownership-culture
 
 # Global (will be requested for review if no more specific match)
-* @endlessm/games
+* @endlessm/learning
+
+# Games team owns build automation
+/.github/workflows                  @endlessm/games
+/.github/dependabot.yml             @endlessm/games
