@@ -1,37 +1,38 @@
 [gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://dplbg6dq1mrjg"]
 
-[ext_resource type="Texture2D" uid="uid://co6os4gutn84x" path="res://assets/InkDrinker_Idle.png" id="1_wcyn8"]
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hrbew"]
+load_path = "res://.godot/imported/InkDrinker_Idle.png-ae3a180535d00424490cac486049ba1b.ctex"
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ph1f6"]
-atlas = ExtResource("1_wcyn8")
+atlas = SubResource("CompressedTexture2D_hrbew")
 region = Rect2(0, 0, 192, 192)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wa6cj"]
-atlas = ExtResource("1_wcyn8")
+atlas = SubResource("CompressedTexture2D_hrbew")
 region = Rect2(192, 0, 192, 192)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mpawu"]
-atlas = ExtResource("1_wcyn8")
+atlas = SubResource("CompressedTexture2D_hrbew")
 region = Rect2(384, 0, 192, 192)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pvtfm"]
-atlas = ExtResource("1_wcyn8")
+atlas = SubResource("CompressedTexture2D_hrbew")
 region = Rect2(576, 0, 192, 192)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_02tnr"]
-atlas = ExtResource("1_wcyn8")
+atlas = SubResource("CompressedTexture2D_hrbew")
 region = Rect2(768, 0, 192, 192)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bv0o5"]
-atlas = ExtResource("1_wcyn8")
+atlas = SubResource("CompressedTexture2D_hrbew")
 region = Rect2(960, 0, 192, 192)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pxnim"]
-atlas = ExtResource("1_wcyn8")
+atlas = SubResource("CompressedTexture2D_hrbew")
 region = Rect2(1152, 0, 192, 192)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fwwnh"]
-atlas = ExtResource("1_wcyn8")
+atlas = SubResource("CompressedTexture2D_hrbew")
 region = Rect2(1344, 0, 192, 192)
 
 [resource]

@@ -1,13 +1,14 @@
 [gd_resource type="SpriteFrames" load_steps=4 format=3 uid="uid://b3orjhfv6eeud"]
 
-[ext_resource type="Texture2D" uid="uid://bwqhhtm1mdivu" path="res://assets/flag.png" id="1_v2slk"]
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_vgswu"]
+load_path = "res://.godot/imported/flag.png-29c6a06ab0a1d25cfcfa38ea2a7baffa.ctex"
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7rj5q"]
-atlas = ExtResource("1_v2slk")
+atlas = SubResource("CompressedTexture2D_vgswu")
 region = Rect2(148, 0, 128, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wqhmt"]
-atlas = ExtResource("1_v2slk")
+atlas = SubResource("CompressedTexture2D_vgswu")
 region = Rect2(0, 0, 128, 128)
 
 [resource]
