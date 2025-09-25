@@ -1,11 +1,10 @@
 [gd_resource type="TileSet" load_steps=7 format=3 uid="uid://bmkax0b814rmy"]
 
-[ext_resource type="Texture2D" uid="uid://wi0fhx7cgqqd" path="res://assets/Threadbare_Side_Void.png" id="2_cuetm"]
-[ext_resource type="Texture2D" uid="uid://slkdum8sci0g" path="res://assets/Threadbare_Side_Tileset2.png" id="3_rvhau"]
-[ext_resource type="Texture2D" uid="uid://bqd7lf2mw805a" path="res://assets/Threadbare_Side_Tileset1.png" id="4_slmyp"]
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_772mk"]
+load_path = "res://.godot/imported/Threadbare_Side_Void.png-ebd89acf6b7be5ec5053440e5ed8f711.ctex"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rvhau"]
-texture = ExtResource("2_cuetm")
+texture = SubResource("CompressedTexture2D_772mk")
 texture_region_size = Vector2i(128, 128)
 0:0/0 = 0
 1:0/0 = 0
@@ -44,8 +43,11 @@ texture_region_size = Vector2i(128, 128)
 10:2/0 = 0
 11:2/0 = 0
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_70ihp"]
+load_path = "res://.godot/imported/Threadbare_Side_Tileset1.png-b9864c4258f46d6286e10f584dbb481b.ctex"
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ao48g"]
-texture = ExtResource("4_slmyp")
+texture = SubResource("CompressedTexture2D_70ihp")
 texture_region_size = Vector2i(128, 128)
 0:0/0 = 0
 1:0/0 = 0
@@ -127,8 +129,11 @@ texture_region_size = Vector2i(128, 128)
 10:2/0 = 0
 11:2/0 = 0
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cuetm"]
+load_path = "res://.godot/imported/Threadbare_Side_Tileset2.png-73cc6f87825fecb8e852494e7cf08988.ctex"
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_slmyp"]
-texture = ExtResource("3_rvhau")
+texture = SubResource("CompressedTexture2D_cuetm")
 texture_region_size = Vector2i(128, 128)
 8:0/0 = 0
 9:0/0 = 0
