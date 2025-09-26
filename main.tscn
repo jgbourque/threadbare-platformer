@@ -112,7 +112,7 @@ texture = ExtResource("4_dg77c")
 [node name="Book2" parent="Books" instance=ExtResource("5_u7hr5")]
 position = Vector2(1550, -1437)
 scale = Vector2(1.5, 1.5)
-texture = SubResource("CompressedTexture2D_efxa6")
+texture = ExtResource("4_dg77c")
 
 [node name="Book3" parent="Books" instance=ExtResource("5_u7hr5")]
 position = Vector2(129, -1969)
