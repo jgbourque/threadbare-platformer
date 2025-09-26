@@ -1,9 +1,10 @@
-[gd_scene load_steps=18 format=4 uid="uid://dhcpt1kt8cs0g"]
+[gd_scene load_steps=19 format=4 uid="uid://dhcpt1kt8cs0g"]
 
 [ext_resource type="PackedScene" uid="uid://8st4scqt06l8" path="res://components/player/player.tscn" id="2_7yl00"]
 [ext_resource type="TileSet" uid="uid://bmkax0b814rmy" path="res://spaces/tileset-a.tres" id="2_ycdy4"]
 [ext_resource type="PackedScene" uid="uid://cswheshouik14" path="res://rules_goals/game_logic.tscn" id="3_xbkvd"]
 [ext_resource type="PackedScene" uid="uid://dthyncc3spfks" path="res://spaces/dangerzone.tscn" id="4_2mg6t"]
+[ext_resource type="Texture2D" uid="uid://c7ug5w0c7iui0" path="res://assets/keycollectible-justin.png" id="4_dg77c"]
 [ext_resource type="PackedScene" uid="uid://daf24t18h3n5e" path="res://components/coin/coin.tscn" id="5_u7hr5"]
 [ext_resource type="PackedScene" uid="uid://jt80gv02u4f2" path="res://hud.tscn" id="6_mp7wy"]
 [ext_resource type="Texture2D" uid="uid://la84y8l54pq0" path="res://assets/Books_1.png" id="7_w48qg"]
@@ -117,7 +118,7 @@ texture = SubResource("CompressedTexture2D_efxa6")
 [node name="Book3" parent="Books" instance=ExtResource("5_u7hr5")]
 position = Vector2(129, -1969)
 scale = Vector2(1.5, 1.5)
-texture = SubResource("CompressedTexture2D_efxa6")
+texture = ExtResource("4_dg77c")
 
 [node name="Book4" parent="Books" instance=ExtResource("5_u7hr5")]
 position = Vector2(1405, -2949)
