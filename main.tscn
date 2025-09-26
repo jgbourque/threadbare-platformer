@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=4 uid="uid://dhcpt1kt8cs0g"]
+[gd_scene load_steps=20 format=4 uid="uid://dhcpt1kt8cs0g"]
 
 [ext_resource type="PackedScene" uid="uid://8st4scqt06l8" path="res://components/player/player.tscn" id="2_7yl00"]
 [ext_resource type="TileSet" uid="uid://bmkax0b814rmy" path="res://spaces/tileset-a.tres" id="2_ycdy4"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://dthyncc3spfks" path="res://spaces/dangerzone.tscn" id="4_2mg6t"]
 [ext_resource type="Texture2D" uid="uid://c7ug5w0c7iui0" path="res://assets/keycollectible-justin.png" id="4_dg77c"]
 [ext_resource type="PackedScene" uid="uid://daf24t18h3n5e" path="res://components/coin/coin.tscn" id="5_u7hr5"]
+[ext_resource type="Texture2D" uid="uid://bvqkuwn1jqnic" path="res://icon.png" id="5_w48qg"]
 [ext_resource type="PackedScene" uid="uid://jt80gv02u4f2" path="res://hud.tscn" id="6_mp7wy"]
 [ext_resource type="Texture2D" uid="uid://la84y8l54pq0" path="res://assets/Books_1.png" id="7_w48qg"]
 [ext_resource type="SpriteFrames" uid="uid://dplbg6dq1mrjg" path="res://components/player/inkdrinker.tres" id="9_ycdy4"]
@@ -113,7 +114,7 @@ texture = ExtResource("7_w48qg")
 [node name="Book2" parent="Books" instance=ExtResource("5_u7hr5")]
 position = Vector2(1550, -1437)
 scale = Vector2(1.5, 1.5)
-texture = SubResource("CompressedTexture2D_efxa6")
+texture = ExtResource("5_w48qg")
 
 [node name="Book3" parent="Books" instance=ExtResource("5_u7hr5")]
 position = Vector2(129, -1969)
