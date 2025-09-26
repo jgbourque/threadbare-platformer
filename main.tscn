@@ -4,9 +4,9 @@
 [ext_resource type="TileSet" uid="uid://bmkax0b814rmy" path="res://spaces/tileset-a.tres" id="2_ycdy4"]
 [ext_resource type="PackedScene" uid="uid://cswheshouik14" path="res://rules_goals/game_logic.tscn" id="3_xbkvd"]
 [ext_resource type="PackedScene" uid="uid://dthyncc3spfks" path="res://spaces/dangerzone.tscn" id="4_2mg6t"]
+[ext_resource type="Texture2D" uid="uid://c7ug5w0c7iui0" path="res://assets/keycollectible-justin.png" id="4_dg77c"]
 [ext_resource type="PackedScene" uid="uid://daf24t18h3n5e" path="res://components/coin/coin.tscn" id="5_u7hr5"]
 [ext_resource type="PackedScene" uid="uid://jt80gv02u4f2" path="res://hud.tscn" id="6_mp7wy"]
-[ext_resource type="Texture2D" uid="uid://la84y8l54pq0" path="res://assets/Books_1.png" id="7_w48qg"]
 [ext_resource type="SpriteFrames" uid="uid://dplbg6dq1mrjg" path="res://components/player/inkdrinker.tres" id="9_ycdy4"]
 [ext_resource type="PackedScene" uid="uid://beuisy5yrw0bq" path="res://components/flag/flag.tscn" id="12_dkbog"]
 [ext_resource type="Script" uid="uid://boqbxvbja884q" path="res://scripts/multiplayer_camera.gd" id="13_0d2mj"]
@@ -107,12 +107,12 @@ tile_set = ExtResource("2_ycdy4")
 [node name="Book1" parent="Books" instance=ExtResource("5_u7hr5")]
 position = Vector2(512, -64)
 scale = Vector2(1.5, 1.5)
-texture = ExtResource("7_w48qg")
+texture = ExtResource("4_dg77c")
 
 [node name="Book2" parent="Books" instance=ExtResource("5_u7hr5")]
 position = Vector2(1550, -1437)
 scale = Vector2(1.5, 1.5)
-texture = SubResource("CompressedTexture2D_efxa6")
+texture = ExtResource("4_dg77c")
 
 [node name="Book3" parent="Books" instance=ExtResource("5_u7hr5")]
 position = Vector2(129, -1969)
